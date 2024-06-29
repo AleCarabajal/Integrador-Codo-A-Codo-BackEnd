@@ -54,7 +54,7 @@ app.get('/productos/:id', async (req, res) => {
         const connection = await pool.getConnection()
         const [rows] = await connection.query(sql, [id]);
         connection.release();
-        console.log("UN PRODUCTO --> ", rows)
+        console.log("MOSTRANDO UN PRODUCTO --> ", rows)
         res.json(rows[0]);
     } catch (error) {
         res.send(500).send('Internal server error')
@@ -73,7 +73,7 @@ app.post('/productos', async (req, res) => {
         const [rows] = await connection.query(sql, [producto]);
         connection.release();
         res.send(`
-            <h1>Producto creado con id: ${rows.insertId}</h1>
+            <h1>Un nuevo Producto con id: ${rows.insertId} fué creado exitosamente. </h1>
         `);
     } catch (error) {
         res.send(500).send('Internal server error')
@@ -93,7 +93,7 @@ app.put('/productos/:id', async (req, res) => {
         connection.release();
         console.log(rows)
          res.send(`
-            <h1>Producto actualizado id: ${id}</h1>
+            <h1>El producto con el id ${id} fué actualizado correctamente </h1>
         `);
     } catch (error) {
         res.send(500).send('Internal server error')
@@ -112,7 +112,7 @@ app.delete('/productos/:id', async (req, res) => {
         connection.release();
         console.log(rows)
          res.send(`
-            <h1>Producto borrado id: ${id}</h1>
+            <h1>El producto con el id ${id} fué eliminado exitosamente </h1>
         `);
     } catch (error) {
         res.send(500).send('Internal server error')
