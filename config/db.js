@@ -2,24 +2,13 @@ import { createPool } from 'mysql2/promise';
 
 // Create a connection pool
 
-/*  const pool = createPool({
+const pool = createPool({
     host: process.env.MYSQL_ADDON_HOST,
     user: process.env.MYSQL_ADDON_USER,
     password: process.env.MYSQL_ADDON_PASSWORD,
     database: process.env.MYSQL_ADDON_DB,
     connectionLimit: 5 // Adjust the connection limit as per your requirements
-});                                                */
-
-
-
-const pool = createPool({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'codoacodo-backend',
-    connectionLimit: 5 
-});                   
-
+});                                            
 
 
 
