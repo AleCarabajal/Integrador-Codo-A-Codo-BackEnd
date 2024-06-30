@@ -11,7 +11,6 @@ const pool = createPool({
 });                                            
 
 
-
 // test connection
 pool.getConnection()
     .then(connection => {
