@@ -10,7 +10,6 @@ const pool = createPool({
     connectionLimit: 5 // Adjust the connection limit as per your requirements
 });                                            
 
-
 // test connection
 pool.getConnection()
     .then(connection => {
