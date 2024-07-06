@@ -1,0 +1,207 @@
+body {
+  margin-top: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+
+/* ===== Barra de Navegación =====*/
+
+nav.navbar {
+  background-color: rgb(26, 117, 188);
+}
+
+nav.navbar ul.nav li {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;  
+}
+
+nav ul {
+  align-items: center;
+  color: rgb(240, 248, 255);
+  display: flex;
+  font-size: 1.5625rem;
+  gap: 6.25rem;
+  list-style-type: none;
+}
+
+/* ===== Cuerpo de la página ===== */
+
+.contenedor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: rgb(223, 223, 223); */
+  margin-top: 4.0625rem;
+  background-color: #f6f6e2fa;
+  }
+
+
+.wrapper{
+  margin: .625rem;
+  width: 90%;
+}
+
+
+.wrapper img{
+  max-width: 20rem;
+  float: left;
+  border: .0625rem solid #000000;
+  border-radius: .625rem;
+  margin-right: .9375rem;
+  width: 90%;
+}
+
+.text-box{
+  color: rgb(63, 63, 63);
+}
+
+.text-box h2{
+  font-size: 2.625rem;
+
+}
+
+.text-box p{
+  font-size: 1rem;
+  text-align: justify;
+}
+
+
+  /* ===== Redes Sociales ===== */
+.redes {
+    align-items: center;
+    background-color: rgb(181, 181, 181);
+    color: #000000;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding-top: 1.5em;
+  }
+  .redes h2 {
+    text-align: center;
+  }
+  
+  .redes .list-group {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .redes a {
+    color: rgb(26, 117, 188);
+  }
+  
+  .list-group {
+    align-items: center;
+    gap: 5rem;
+    justify-content: center;
+  }
+  
+  .list-group-item {
+    color: rgb(43, 43, 43);
+  }
+  
+  .fa-square-instagram:hover {
+    background-image: url("imagenes/instagram.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: .0938rem;
+    color: transparent;
+    transform: scale(2.5);
+    transition: 0.4s ease-in-out;
+  }
+  
+  .fa-facebook:hover {
+    background-image: url("/imagenes/facebook.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: .0938rem;
+    color: transparent;
+    transform: scale(2.5);
+    transition: 0.4s ease-in-out;
+  }
+  
+  .fa-twitter:hover {
+    background-image: url("/imagenes/twitter.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: .0938rem;
+    color: transparent;
+    transform: scale(2.5);
+    transition: 0.4s ease-in-out;
+  }
+  
+  .fa-whatsapp:hover {
+    background-image: url("imagenes/WhatsApp.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: .0938rem;
+    color: transparent;
+    transform: scale(2.5);
+    transition: 0.4s ease-in-out;
+  }
+  
+  /* ===== Quitamos margen y fondo a los íconos de las redes sociales ===== */
+  .redes li {
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-color: none;
+  }
+  
+  li {
+    list-style-type: none; 
+    margin-left: -3%;
+  }
+  
+  /* ===== SECCION FOOTER ===== */
+  
+  .footer {
+    align-items: center;
+    background: #404040;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .copyright {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  footer li {
+    display: flex;
+    justify-content: center;
+    padding-right: 2rem;
+  }
+  
+  .item a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .item a:hover {
+    color: #45f3ff;
+  }
+  
+  /* ===== SCROLL ===== */
+  ::-webkit-scrollbar {
+    width: .9375rem;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: rgb(181, 181, 181);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(26, 117, 188);
+  }
+
+
+
+
+  @media only screen and (max-width: 508px) {
+    h3{
+       text-align: center;
+    }
+
+  }

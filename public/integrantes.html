@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título de la página -->
+    <title>Clínica Odontológica - Integrantes</title>
+
+    
+
+    <!--===== Favicon =====-->
+    <link rel="shortcut icon" href="imagenes/logo1.png" type="image/x-icon">
+    <!-- Linkear la hoja de estilos -->
+    <link rel="stylesheet" href="integrantes.css">
+
+    <!-- Bootstrap -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    >
+  </head>
+  <body>
+    <!-- Barra de Navegación -->
+
+    <nav
+      class="navbar navbar-expand-lg navbar-dark fixed-top"
+      style="background-color: rgb(26, 117, 188)"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="imagenes/icono1.webp"
+            alt="Logo pequeño de la Clínica Odontológica"
+            width="40"
+            height="40"
+          >
+          Clínica Odontológica
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Inicio</a>
+            <a class="nav-link" href="index.html#QS">Quienes Somos</a>
+            <a class="nav-link" href="tratamientos.html">Tratamientos</a>
+            <a class="nav-link" href="index.html#contacto">Contacto</a>
+            <a class="nav-link" href="turnosOnline.html">Turno</a>
+            <a class="nav-link" href="productos.html".html">Tienda</a>
+            <a class="nav-link" href="integrantes.html">Integrantes</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- Tarjetas Giratorias -->
+    <div class="contenedor">
+      <div
+        class="tarjeta"
+        onmouseover="playAudio(this)"
+        onmouseout="pauseAudio(this)"
+      >
+        <div class="face front">
+          <audio src="audio/chacareraAñoranzasSgo.mp3"></audio>
+
+          <img
+            src="imagenes/AlejandroCarabajal.jpg"
+            alt="Foto de Alejandro Carabajal"
+          >
+
+          <h3>Alejandro Carabajal</h3>
+        </div>
+
+        <div class="face back">
+          <h3>Santiago del Estero</h3>
+          <p>
+            Nacido en las entrañas de la Madre de Ciudades y siendo un apasionado por la programación, encuentro en el mundo del código mi mayor fuente de inspiración y creatividad, a pesar de dedicarme principalmente a otra actividad. <br>
+            Soy una persona capaz de adaptarme a nuevas situaciones y resolver problemas de manera eficaz, investigando y poniéndolo a prueba para hacerlo de la mejor manera posible. <br>
+            Considero que el crecimiento personal y grupal es fundamental para consolidar los vínculos y lograr que un proyecto se realice de manera exitosa.
+
+          </p>
+
+          <div class="link">
+            <a
+              href="https://www.argentina.gob.ar/santiago/simbolos"
+              target="_blank"
+              >Más sobre Santiago del Estero</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="tarjeta"
+        onmouseover="playAudio(this)"
+        onmouseout="pauseAudio(this)"
+      >
+        <div class="face front">
+          <audio
+            src="audio/jesusGodoyElMejorRegaloTonadaSanJuan.mp3"
+          ></audio>
+
+          <img
+            src="imagenes/FavioPereyra.jpeg"
+            alt="Foto de Favio Pereyra"
+          >
+          <h3>Favio Pereyra</h3>
+        </div>
+
+        <div class="face back">
+          <h3>San Juan</h3>
+          <p>
+            Apasionado en la programación, lo que me hace disfrutar brindar mis conocimientos en la resolución de los problemas, optimizando las tareas de manera digital. <br>
+
+            Soy autodidacta, lo que me hace mantenerme en constante aprendizaje en lo que respecta a los lenguajes de programación, siempre en busca de nuevos conocimientos y desafíos tecnológicos. <br>
+
+            Se auto gestionar proyectos lo que implica el diseño, instalación, prueba y mantenimiento del software. <br>
+
+            Gran predisposición para el trabajo en equipo, reconociendo que el logro del Equipo es el logro de todos. <br>
+
+            Me encuentro preparado para afrontar nuevos proyectos que me hagan seguir creciendo tanto en mi carrera profesional como personal.
+          </p>
+        
+          <div class="link">
+            <a
+              href="https://www.argentina.gob.ar/sanjuan/simbolos"
+              target="_blank"
+              >Más sobre San Juan</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="tarjeta"
+        onmouseover="playAudio(this)"
+        onmouseout="pauseAudio(this)"
+      >
+        <div class="face front">
+          <audio src="audio/CantoDelAlma-LaNocheSalteña.mp3"></audio>
+          <img
+            src="imagenes/SergioBenitez.jpeg"
+            alt="Foto de Sergio Benitez"
+          >
+          <h3>Sergio Benítez</h3>
+        </div>
+
+        <div class="face back">
+          <h3>Salta</h3>
+          <p>
+            Nacido en Salta, actualmente viviendo en Buenos Aires estoy iniciando 
+            en el mundo de la programacion con el fin de adquirir conocimientos y 
+            meterme al mundo de los negocios digitales y de esa
+            manera trabajar al 100% de esta profesion.
+          </p>
+          <div class="link">
+            <a
+              href="https://www.argentina.gob.ar/salta/simbolos"
+              target="_blank"
+              >Más sobre Salta</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="tarjeta"
+        onmouseover="playAudio(this)"
+        onmouseout="pauseAudio(this)"
+      >
+        <div class="face front">
+          <audio src="audio/pongalePorLasHilerasMendoza.mp3"></audio>
+
+          <img
+            src="imagenes/MatiasRossello.jpg"
+            alt="Foto de Matías Rosello"
+          >
+          <h3>Matías Rosello</h3>
+        </div>
+
+        <div class="face back">
+          <h3>Mendoza</h3>
+          <p>
+            Estoy iniciando en el mundo de la programación. <br> 
+            Espero conseguir nuevos conocimientos para poder incursionar en este ambiente.
+          </p>
+          <div class="link">
+            <a
+              href="https://www.argentina.gob.ar/mendoza/simbolos"
+              target="_blank"
+              >Más sobre Mendoza</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--===== SECCION FOOTER =====-->
+
+    <footer class="footer">     
+        <div class="row">
+          <div class="col-md-12">
+            <span class="copyright"
+              >Copyright &copy; Codo a Codo 2024 <br> Comisión 24138 - Grupo 7
+            </span>
+          </div>
+
+          <div class="col-md-12">
+            <ul>
+              <li class="item"><a href="#">Privacy Policy</a></li>
+              <li class="item"><a href="#">Terms of Use</a></li>
+            </ul>
+          </div>
+        </div>     
+    </footer>
+
+    <!--===== Script Fontawesone =====-->
+    <script
+      src="https://kit.fontawesome.com/830a4cd030.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--===== Script Bootstrap =====-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="integrantes.js"></script>
+  </body>
+</html>
