@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+
+    <!--===== Título de la página =====-->
+    <title>Clínica Odontológica</title>
+
+    <!--===== Favicon =====-->
+    <link rel="shortcut icon" href="imagenes/logo1.png" type="image/x-icon">
+
+    <!--===== Linkear la hoja de estilos =====-->
+    <link rel="stylesheet" href="estilos.css">
+
+    <!--===== Bootstrap =====-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    >
+    <link
+      href="/docs/5.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+  >
+  </head>
+
+  <body>
+    <!--===== BARRA DE NAVEGACIÓN =====-->
+    <nav
+      class="navbar navbar-expand-lg fixed-top navbar-dark"
+      style="background-color: rgb(26, 117, 188)"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="imagenes/icono1.webp"
+            alt="Logo pequeño de la Clínica Odontológica"
+            width="40"
+            height="40"
+          >
+
+          Clínica Odontológica
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Inicio</a
+            >
+
+            <a class="nav-link" href="index.html#QS">Quienes Somos</a>
+
+            <a class="nav-link" href="tratamientos.html">Tratamientos</a>
+
+            <a class="nav-link" href="#contacto">Contacto</a>
+
+            <a class="nav-link" href="turnosOnline.html">Turno</a>
+
+            <a class="nav-link" href="tienda.html">Tienda</a>
+
+            <a class="nav-link" href="integrantes.html">Integrantes</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--===== CARRUSEL =====-->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imagenes/sala1.png" class="d-block w-100" alt="sala1">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/sala2.png" class="d-block w-100" alt="sala2">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/sala3.png" class="d-block w-100" alt="sala3">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/sala4.png" class="d-block w-100" alt="sala4">
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <!--===== Quienes somos =====-->
+    <div class="somos">
+      <h2 id="QS">Quienes somos</h2>
+      <p>
+        Somos un grupo de profesionales apasionados por trabajar en equipo y
+        brindar atención personalizada. <br>
+        Nuestro enfoque se centra en la prevención y la educación de nuestros
+        pacientes acerca de la salud bucal. <br>
+        Permíteme presentarte a algunos de los miembros de nuestro equipo:
+        <br>
+      </p>
+
+      <div class="profesionales">
+        <div class="odos">
+          <img src="imagenes/od1.jpg" alt="foto de la misión del consultorio">
+          <h5>Dra. Costas Maia</h5>
+          <div class="rama">
+            <p>
+              <i class="fa-solid fa-check"></i>
+              Especialista en Ortodoncia y Ortopedia Bucomaxilofacial. Fac. de
+              Odontología UNC <br>
+              <i class="fa-solid fa-check"></i>
+              Ex Docente de la UNC Cát. de Ortodoncia <br>
+              <i class="fa-solid fa-check"></i>
+              Socio de SAO. Miembro de World Federation Of Orthodontic. <br>
+              <i class="fa-solid fa-check"></i>
+              Miembro del Roth/Williams Center For Functional Occlusion Inc.
+              <br>
+             
+            </p>
+          </div>
+        </div>
+
+        <div class="odos">
+          <img
+            src="imagenes/od2.jpg"
+            alt="foto de las visiones del consultorio"
+          >
+          <h5>Dra. Trejo Carina</h5>
+          <div class="rama">
+            <p>
+              <i class="fa-solid fa-check"></i>
+              Curso de perfeccionamiento Teórico Practico Clínico en Endodoncia
+              UCU, 2016 (carga horaria 920 horas) <br>
+              <i class="fa-solid fa-check"></i>
+              Ex JTP de la Universidad Católica de Cba. <br>
+              <i class="fa-solid fa-check"></i>
+              "Máster modular en endodoncia clínica”, impartido por el Ateneo de
+              Postgrado Odontológico.<br>
+
+              <br>
+            </p>
+          </div>
+        </div>
+
+        <div class="odos">
+          <img src="imagenes/od3.jpg" alt="foto de la misión del consultorio">
+          <h5>Dra. Juarez Rocío</h5>
+          <div class="rama">
+            <p>
+              <i class="fa-solid fa-check"></i>
+              Dictante del Programa Nacional de Prevención “Sonríe Argentina”.
+              Confederación Odontológica de la República Argentina. <br>
+              <i class="fa-solid fa-check"></i>
+              Jefe de Trabajos Prácticos. Cátedra de Operatoria Dental II “A”.
+              <br>
+              <i class="fa-solid fa-check"></i>
+              Dictante de Ateneo “Coronas Provisionales de Ultima Generación”.
+              Sociedad de Prostodoncia de Córdoba. <br>
+            </p>
+          </div>
+        </div>
+
+        <div class="odos">
+          <img src="imagenes/od4.jpg" alt="foto de la misión del consultorio">
+          <h5>Dr. Carabajal José</h5>
+          <div class="rama">
+            <p>
+              <i class="fa-solid fa-check"></i>
+              “Curso quirúrgico y protésico de carga inmediata”, promovido por
+              SIN ImplantSystem, <br>
+              <i class="fa-solid fa-check"></i>
+              “Curso teórico práctico avanzado en implantes y cirugía guiada”,
+              impartido por el Instituto IESO (Instituto de Estudios Superiores
+              Odontológicos) <br>
+              <i class="fa-solid fa-check"></i>
+              “Curso teórico práctico avanzado en implantoprótesis”, impartido
+              por el instituto IESO (Instituto de Estudios Superiores
+              Odontológicos) <br>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <p>
+        En Odontología Web, nos esforzamos por ofrecer un servicio completo con
+        los mejores tratamientos, siempre al alcance de todos. Si deseas obtener
+        más información, puedes visitar nuestra página aquí. ¡Estamos aquí para
+        cuidar de tu salud bucal! 😊🦷
+      </p>
+    </div>
+
+    <!-- ===== Tarjetas Marketing ===== -->
+    <div class="cards">
+      <div class="card">
+        <img
+          src="imagenes/mision.png"
+          alt="foto de la misión del consultorio"
+      >
+        <h1>Misión</h1>
+        <div class="content mision">
+          <p>
+            Sanar efectivamente a nuestros pacientes realizando diagnósticos
+            precisos y tratamientos seguros y exitosos. Proporcionar un ambiente
+            lleno de confianza, paz, armonía y comodidad. Estar dispuestos a
+            ayudar integralmente a nuestros pacientes y compañeros de trabajo.
+            Mantener la confidencialidad e intimidad necesarias para preservar
+            la dignidad del paciente.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="imagenes/Vision.png"
+          alt="foto de las visiones del consultorio"
+      >
+        <h1>Visión</h1>
+        <div class="content vision">
+          <p>
+            Ser líderes en la prestación integral de servicios de salud oral,
+            siendo reconocidos por nuestra calidad humana, avances tecnológicos
+            e infraestructura. Aspirar a ser una clínica dental de referencia,
+            donde los pacientes confíen en nuestra excelencia y se sientan
+            cómodos y seguros.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="imagenes/valores.png"
+          alt="foto de los valores del consultorio"
+      >
+        <h1>Valores</h1>
+        <div class="content valores">
+          <p>
+            <b>Servicio:</b> Compromiso con la atención integral y la
+            satisfacción del paciente. <br>
+            <b>Calidad:</b> Uso adecuado de los recursos y la innovación
+            tecnológica. <br>
+            <b>Liderazgo clínico responsable:</b> Guiar con conocimiento y
+            ética. <br>
+            <b>Respeto:</b> Respetar las creencias y decisiones del paciente.
+            <br>
+            <b>Excelencia y mejora continua:</b> Buscar siempre la excelencia y
+            mejorar la calidad asistencial.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- ===== Contacto ===== -->
+
+    <section class="seccion-contacto" id="contacto">
+      <div class="container">
+        <h2>Contactanos</h2>
+        <div class="row100">
+          <div class="col">
+            <div class="input-box">
+              <input type="text" name="Apellido" required>
+              <span class="text">Apellido</span>
+              <span class="line"></span>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="input-box">
+              <input type="text" name="Nombre" required>
+              <span class="text">Nombre</span>
+              <span class="line"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row100">
+          <div class="col">
+            <div class="input-box">
+              <input type="text" name="Email" required>
+              <span class="text">Email</span>
+              <span class="line"></span>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="input-box">
+              <input type="text" name="teléfono" required>
+              <span class="text">Número de teléfono</span>
+              <span class="line"></span>
+            </div>
+          </div>
+          <div class="col">
+            <div class="input-box textarea">
+              <textarea required></textarea>
+              <span class="text">Escribe aquí tu mensaje...</span>
+              <span class="line"></span>
+            </div>
+          </div>
+          <div class="row100">
+            <div class="col">
+              <a href="mailto:alecarabajal@hotmail.com"> </a>
+              <input type="submit" value="Enviar">
+            </div>
+          </div>
+        </div>
+        <br>
+        <!--===== UBICACIÓN =====-->
+        <h3>Nos puedes encontrar aquí</h3>
+
+        <iframe
+          class="mapa"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16787.983863801972!2d-64.24924761979086!3d-27.802417553121362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943b4df970eb329b%3A0xaf16171a031bfc2f!2sHospital%20Regional%20%22Dr.%20Ram%C3%B3n%20Carrillo%22!5e0!3m2!1ses!2sar!4v1710312494694!5m2!1ses!2sar"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <hr class="featurette-divider">
+
+    <!-- ===== Slider Infinito ===== -->
+    <div class="slider">
+      <div class="slide-track">
+        <div class="slide">
+          <img src="slider/sonrisa1.jpg" alt="Foto de una boca sonriendo">
+        </div>
+
+        <div class="slide">
+          <img src="slider/sonrisa2.jpg" alt="Foto de una boca sonriendo">
+        </div>
+
+        <div class="slide">
+          <img src="slider/sonrisa3.jpg" alt="Foto de una boca sonriendo">
+        </div>
+
+        <div class="slide">
+          <img src="slider/sonrisa4.jpg" alt="Foto de una boca sonriendo">
+        </div>
+
+        <div class="slide">
+          <img src="slider/sonrisa5.jpg" alt="Foto de una boca sonriendo">
+        </div>
+
+        <div class="slide">
+          <img src="slider/sonrisa6.jpg" alt="Foto de una boca sonriendo">
+        </div>
+
+        <div class="slide">
+          <img src="slider/sonrisa7.jpg" alt="Foto de una boca sonriendo">
+        </div>
+
+        <div class="slide">
+          <img src="slider/sonrisa8.jpg" alt="Foto de una boca sonriendo">
+        </div>
+
+        <div class="slide">
+          <img src="slider/sonrisa9.jpg" alt="Foto de una boca sonriendo">
+        </div>
+
+        <div class="slide">
+          <img src="slider/sonrisa10.jpg" alt="Foto de una boca sonriendo">
+        </div>
+
+        <div class="slide">
+          <img src="slider/sonrisa11.jpg" alt="Foto de una boca sonriendo">
+        </div>
+
+        <div class="slide">
+          <img src="slider/sonrisa12.jpg" alt="Foto de una boca sonriendo">
+        </div>
+
+        <div class="slide">
+          <img src="slider/sonrisa13.jpg" alt="Foto de una boca sonriendo">
+        </div>
+
+        <div class="slide">
+          <img src="slider/sonrisa14.jpg" alt="Foto de una boca sonriendo">
+        </div>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!--===== REDES SOCIALES =====-->
+    <section class="redes">
+      <h2>Nuestras Redes Sociales</h2>
+      <br>
+      <ul class="list-group list-group-horizontal">
+        <li class="list-group-item">
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-square-instagram"></i>
+          </a>
+        </li>
+
+        <li class="list-group-item">
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </li>
+
+        <li class="list-group-item">
+          <a
+            href="https://www.twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fa-brands fa-twitter"></i>
+          </a>
+        </li>
+
+        <li class="list-group-item">
+          <a
+            href="https://api.whatsapp.com/send?phone=123456789"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </li>
+      </ul>
+      <br>
+    </section>
+  
+    <!--===== SECCION FOOTER =====-->
+
+    <footer class="footer">
+      <div class="row">
+        <div class="col-md-12">
+          <span class="copyright"
+            >Copyright &copy; Codo a Codo 2024 <br>
+            Comisión 24138 - Grupo 7
+          </span>
+        </div>
+
+        <div class="col-md-12">
+          <ul>
+            <li class="item"><a href="#">Privacy Policy</a></li>
+            <li class="item"><a href="#">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!--===== Script Fontawesone =====-->
+    <script
+      src="https://kit.fontawesome.com/830a4cd030.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--===== Script Bootstrap =====-->
+    <script
+      src="/docs/5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+  </body>
+</html>
