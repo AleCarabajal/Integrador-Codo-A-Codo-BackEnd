@@ -1,7 +1,6 @@
 {
   "name": "integrador-codo-a-codo-backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -14,6 +13,9 @@
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "mysql2": "^3.10.1"
-  }
+    "mysql2": "^3.10.1",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.12.1"
+  },
+  "description": ""
 }

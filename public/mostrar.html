@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto</title>
+</head>
+<body>
+    <div id="producto"></div>
+
+    <script>
+        // Tu objeto JSON
+        const producto = {
+            nombre: 'Waterpik 1 lt',
+            precio: '219899.00',
+            descripcion: 'Waterpik para higiene dental, con puntas intercambiables x 1lt',
+            stock: 10,
+            categoria: 'cepillos',
+            tarjetas: 'ICBC',
+            descuento: '20',
+            cuotas: '6',
+            interes: '30'
+        };
+
+        // Accede a los valores
+        const nombre = producto.nombre;
+        const precio = producto.precio;
+        const descripcion = producto.descripcion;
+
+        // Inserta los valores en la página
+        const productoDiv = document.getElementById('producto');
+        productoDiv.innerHTML = `
+            <h1>${nombre}</h1>
+            <p>Precio: $${precio}</p>
+            <p>${descripcion}</p>
+        `;
+    </script>
+</body>
+</html>
